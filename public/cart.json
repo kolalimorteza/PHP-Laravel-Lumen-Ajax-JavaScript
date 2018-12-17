@@ -1,0 +1,18 @@
+{
+  "totalItems": 12,
+  "totalPrice": "782.00",
+  "items": [
+    {
+      "name": "Bag",
+      "price": "500.00",
+      "qty": 9,
+      "imgSrc": "img/products/bag.jpg"
+    },
+    {
+      "name": "Scarf",
+      "price": "120.00",
+      "qty": 4,
+      "imgSrc": "img/products/scarf.jpg"
+    }
+  ]
+}

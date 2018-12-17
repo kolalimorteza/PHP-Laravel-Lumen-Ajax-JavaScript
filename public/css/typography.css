@@ -1,0 +1,113 @@
+body {
+  color: #03363d;
+  direction: ltr;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-weight: 100;
+}
+a {
+  color: #03363d;
+  text-decoration: none;
+}
+textarea,
+input,
+button {
+  border: none;
+  background: none;
+  width: 100%;
+  color: #03363d;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+  outline: none;
+}
+p {
+  line-height: 1.7em;
+  color: #03363d;
+  text-align: justify;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  color: #03363d;
+}
+label {
+  color: #03363d;
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+select,
+textarea,
+button,
+input {
+  font-size: 14px;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+i {
+  font-style: normal!important;
+}
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #999999;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999999;
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999999;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #999999;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #999999;
+}
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #999999;
+}
+::-webkit-input-placeholder {
+  color: #999999;
+}
+::-moz-placeholder {
+  color: #999999;
+}
+:-ms-input-placeholder {
+  color: #999999;
+}
+:-o-input-placeholder {
+  color: #999999;
+}
